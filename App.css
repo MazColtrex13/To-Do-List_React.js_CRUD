@@ -1,0 +1,51 @@
+/* App.css */
+body {
+  background-color: #f5f7fa;
+}
+
+.task-card {
+  transition: transform 0.2s;
+}
+
+.task-card:hover {
+  transform: scale(1.02);
+}
+
+.task-name.to-do {
+  color: #6c757d;
+}
+
+.task-name.in-progress {
+  color: #ffc107;
+}
+
+.task-name.done {
+  color: #28a745;
+}
+
+.add-task-btn {
+  display: block;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.low-priority {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.medium-priority {
+  background-color: #ffeeba;
+  color: #856404;
+}
+
+.high-priority {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.task-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
